@@ -1,0 +1,2000 @@
+[
+  {
+    "contract": "xtokens",
+    "decimals": 6,
+    "symbol": "XUSDC",
+    "id": "xusdc-xtokens",
+    "system_price": 780.7010695604653,
+    "usd_price": 1
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 6,
+    "symbol": "XUSDT",
+    "id": "xusdt-xtokens",
+    "usd_price": 0.998745,
+    "system_price": 0,
+    "systemPrice": 779.7212897181669
+  },
+  {
+    "contract": "storex",
+    "decimals": 4,
+    "symbol": "STRX",
+    "id": "strx-storex",
+    "usd_price": 0.0008981055968,
+    "system_price": 0.701152
+  },
+  {
+    "contract": "snipcoins",
+    "decimals": 4,
+    "symbol": "SNIPS",
+    "id": "snips-snipcoins",
+    "usd_price": 0.0000141131,
+    "system_price": 0,
+    "systemPrice": 0.011018112264813803
+  },
+  {
+    "contract": "telokanda",
+    "decimals": 4,
+    "symbol": "XKANDA",
+    "id": "xkanda-telokanda",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "ddate",
+    "decimals": 4,
+    "symbol": "XDATE",
+    "id": "xdate-ddate",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "eosio.token",
+    "decimals": 4,
+    "symbol": "XPR",
+    "id": "xpr-eosio.token",
+    "system_price": 1,
+    "usd_price": 0.0012809
+  },
+  {
+    "contract": "sandiegocoin",
+    "decimals": 4,
+    "symbol": "XSAND",
+    "id": "xsand-sandiegocoin",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "beggars",
+    "decimals": 4,
+    "symbol": "BEGGARS",
+    "id": "beggars-beggars",
+    "usd_price": 3.391285222e-8,
+    "system_price": 0.0000264758
+  },
+  {
+    "contract": "pbcbank",
+    "decimals": 0,
+    "symbol": "CIRCUS",
+    "id": "circus-pbcbank",
+    "usd_price": 0.00011832633975,
+    "system_price": 0.0923775
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 6,
+    "symbol": "XDOGE",
+    "id": "xdoge-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 8,
+    "symbol": "XBTC",
+    "id": "xbtc-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xagix",
+    "decimals": 0,
+    "symbol": "XAGIX",
+    "id": "xagix-xagix",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xprpepe",
+    "decimals": 4,
+    "symbol": "PEPE",
+    "id": "pepe-xprpepe",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "daotokens",
+    "decimals": 4,
+    "symbol": "DAOXP",
+    "id": "daoxp-daotokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protonskulls",
+    "decimals": 4,
+    "symbol": "SKULLS",
+    "id": "skulls-protonskulls",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "bayrameta",
+    "decimals": 4,
+    "symbol": "BAYRA",
+    "id": "bayra-bayrameta",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 6,
+    "symbol": "FOOBAR",
+    "id": "foobar-xtokens",
+    "usd_price": 0.00000576453,
+    "system_price": 0,
+    "systemPrice": 0.004500374736513389
+  },
+  {
+    "contract": "loan.token",
+    "decimals": 4,
+    "symbol": "LOAN",
+    "id": "loan-loan.token",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "diamondbank",
+    "decimals": 4,
+    "symbol": "DIAMOND",
+    "id": "diamond-diamondbank",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xprpandas",
+    "decimals": 2,
+    "symbol": "PDA",
+    "id": "pda-xprpandas",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 8,
+    "symbol": "METAL",
+    "id": "metal-xtokens",
+    "usd_price": 0.05703130396,
+    "system_price": 44.5244
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 4,
+    "symbol": "XEOS",
+    "id": "xeos-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "univertrade",
+    "decimals": 4,
+    "symbol": "TRADE",
+    "id": "trade-univertrade",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 6,
+    "symbol": "XHBAR",
+    "id": "xhbar-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "btoken",
+    "decimals": 0,
+    "symbol": "JDOGE",
+    "id": "jdoge-btoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "lunatoken",
+    "decimals": 4,
+    "symbol": "LUNC",
+    "id": "lunc-lunatoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "royalcoin",
+    "decimals": 0,
+    "symbol": "WIZ",
+    "id": "wiz-royalcoin",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 8,
+    "symbol": "VAULT",
+    "id": "vault-softclarinet",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "ankusoni343",
+    "decimals": 4,
+    "symbol": "GRX",
+    "id": "grx-ankusoni343",
+    "usd_price": 0.00010086203679,
+    "system_price": 0.0787431
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 0,
+    "symbol": "SAUSAGE",
+    "id": "sausage-softclarinet",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xmd.token",
+    "decimals": 6,
+    "symbol": "XMD",
+    "id": "xmd-xmd.token",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "knightbank",
+    "decimals": 6,
+    "symbol": "XXRP",
+    "id": "xxrp-knightbank",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 4,
+    "symbol": "XLUNR",
+    "id": "xlunr-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 4,
+    "symbol": "XDC",
+    "id": "xdc-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "clewsy11",
+    "decimals": 3,
+    "symbol": "BEAK",
+    "id": "beak-clewsy11",
+    "usd_price": 0.000005962038713,
+    "system_price": 0.00465457
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 8,
+    "symbol": "XPAXG",
+    "id": "xpaxg-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "eosioavax",
+    "decimals": 2,
+    "symbol": "AVAX",
+    "id": "avax-eosioavax",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 6,
+    "symbol": "XADA",
+    "id": "xada-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "freeostokens",
+    "decimals": 4,
+    "symbol": "FREEOS",
+    "id": "freeos-freeostokens",
+    "usd_price": 0.0007134344011,
+    "system_price": 0.556979
+  },
+  {
+    "contract": "knighttoken",
+    "decimals": 0,
+    "symbol": "NANO",
+    "id": "nano-knighttoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "dumcon2",
+    "decimals": 4,
+    "symbol": "TESTBUR",
+    "id": "testbur-dumcon2",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "electronteam",
+    "decimals": 2,
+    "symbol": "DANK",
+    "id": "dank-electronteam",
+    "usd_price": 9.009171723e-11,
+    "system_price": 7.03347e-8
+  },
+  {
+    "contract": "protonmeta",
+    "decimals": 4,
+    "symbol": "IOTA",
+    "id": "iota-protonmeta",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 8,
+    "symbol": "XETH",
+    "id": "xeth-xtokens",
+    "usd_price": 3441.803918,
+    "system_price": 2687020
+  },
+  {
+    "contract": "xprpussydao",
+    "decimals": 4,
+    "symbol": "PUSSY",
+    "id": "pussy-xprpussydao",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 0,
+    "symbol": "X",
+    "id": "x-protontokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "wearetrende",
+    "decimals": 4,
+    "symbol": "TCX",
+    "id": "tcx-wearetrende",
+    "usd_price": 0.00003585917977,
+    "system_price": 0.0279953
+  },
+  {
+    "contract": "vsgill",
+    "decimals": 0,
+    "symbol": "PGC",
+    "id": "pgc-vsgill",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "goodgames",
+    "decimals": 4,
+    "symbol": "GGS",
+    "id": "ggs-goodgames",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "purrspace",
+    "decimals": 2,
+    "symbol": "PURR",
+    "id": "purr-purrspace",
+    "usd_price": 0.00008591380569999999,
+    "system_price": 0.067073
+  },
+  {
+    "contract": "xpromotion",
+    "decimals": 4,
+    "symbol": "CRAB",
+    "id": "crab-xpromotion",
+    "usd_price": 2.148760986e-10,
+    "system_price": 1.67754e-7
+  },
+  {
+    "contract": "pauc",
+    "decimals": 2,
+    "symbol": "NEON",
+    "id": "neon-pauc",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "knighttoken",
+    "decimals": 1,
+    "symbol": "XELON",
+    "id": "xelon-knighttoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protonmint",
+    "decimals": 4,
+    "symbol": "MINT",
+    "id": "mint-protonmint",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "conductor",
+    "decimals": 0,
+    "symbol": "DUST",
+    "id": "dust-conductor",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "fasa",
+    "decimals": 2,
+    "symbol": "OGRE",
+    "id": "ogre-fasa",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "debtcoin",
+    "decimals": 4,
+    "symbol": "DBT",
+    "id": "dbt-debtcoin",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "studor",
+    "decimals": 4,
+    "symbol": "URS",
+    "id": "urs-studor",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "clanx",
+    "decimals": 4,
+    "symbol": "CLAN",
+    "id": "clan-clanx",
+    "usd_price": 0.003932555135,
+    "system_price": 3.07015
+  },
+  {
+    "contract": "worthless",
+    "decimals": 4,
+    "symbol": "WTT",
+    "id": "wtt-worthless",
+    "usd_price": 0.0000011631174023,
+    "system_price": 0.000908047
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 6,
+    "symbol": "BLPAD",
+    "id": "blpad-tokencreate",
+    "usd_price": 0.00382208,
+    "system_price": 0,
+    "systemPrice": 2.983901943945663
+  },
+  {
+    "contract": "mercadona",
+    "decimals": 6,
+    "symbol": "TUTU",
+    "id": "tutu-mercadona",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "taruntoken",
+    "decimals": 6,
+    "symbol": "LAND",
+    "id": "land-taruntoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "taruntoken",
+    "decimals": 6,
+    "symbol": "ETA",
+    "id": "eta-taruntoken",
+    "usd_price": 0.0001975737014,
+    "system_price": 0.154246
+  },
+  {
+    "contract": "cyberpuppies",
+    "decimals": 4,
+    "symbol": "PUP",
+    "id": "pup-cyberpuppies",
+    "usd_price": 0.00034760936109999997,
+    "system_price": 0.271379
+  },
+  {
+    "contract": "silverbank",
+    "decimals": 4,
+    "symbol": "SILVER",
+    "id": "silver-silverbank",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "goldbank",
+    "decimals": 4,
+    "symbol": "GOLD",
+    "id": "gold-goldbank",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 6,
+    "symbol": "XXLM",
+    "id": "xxlm-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 6,
+    "symbol": "XXRP",
+    "id": "xxrp-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "debtcoin",
+    "decimals": 7,
+    "symbol": "EMRSA",
+    "id": "emrsa-debtcoin",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "lambobank",
+    "decimals": 4,
+    "symbol": "LP",
+    "id": "lp-lambobank",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "magic",
+    "decimals": 4,
+    "symbol": "MAGIC",
+    "id": "magic-magic",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "qstake",
+    "decimals": 0,
+    "symbol": "Q",
+    "id": "q-qstake",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 0,
+    "symbol": "MAYA",
+    "id": "maya-tokencreate",
+    "usd_price": 2.4178268399999997e-9,
+    "system_price": 0.0000018876
+  },
+  {
+    "contract": "protonmeta",
+    "decimals": 6,
+    "symbol": "META",
+    "id": "meta-protonmeta",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 0,
+    "symbol": "QTZL",
+    "id": "qtzl-tokencreate",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 0,
+    "symbol": "CPT",
+    "id": "cpt-tokencreate",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 4,
+    "symbol": "GBX",
+    "id": "gbx-tokencreate",
+    "usd_price": 0.05864639077,
+    "system_price": 45.7853
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 0,
+    "symbol": "HABITAT",
+    "id": "habitat-tokencreate",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 4,
+    "symbol": "CTRAVL",
+    "id": "ctravl-tokencreate",
+    "usd_price": 0.00694535,
+    "system_price": 0,
+    "systemPrice": 5.422242173471778
+  },
+  {
+    "contract": "lambobank",
+    "decimals": 3,
+    "symbol": "LAMBO",
+    "id": "lambo-lambobank",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "realestatese",
+    "decimals": 4,
+    "symbol": "MESSAGE",
+    "id": "message-realestatese",
+    "usd_price": 3.8059253609999995e-7,
+    "system_price": 0.000297129
+  },
+  {
+    "contract": "testcoin2",
+    "decimals": 4,
+    "symbol": "TEST",
+    "id": "test-testcoin2",
+    "usd_price": 1.3258211630000001e-8,
+    "system_price": 0.0000103507
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 5,
+    "symbol": "BONR",
+    "id": "bonr-tokencreate",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 4,
+    "symbol": "CRCH",
+    "id": "crch-tokencreate",
+    "usd_price": 0.000003932785697,
+    "system_price": 0.00307033
+  },
+  {
+    "contract": "ablextoken",
+    "decimals": 4,
+    "symbol": "ABLEX",
+    "id": "ablex-ablextoken",
+    "usd_price": 0.012644,
+    "system_price": 0,
+    "systemPrice": 9.871184323522524
+  },
+  {
+    "contract": "hiphopbank",
+    "decimals": 9,
+    "symbol": "HHC",
+    "id": "hhc-hiphopbank",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "hiphopbank",
+    "decimals": 1,
+    "symbol": "MUSIC",
+    "id": "music-hiphopbank",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "taruntoken",
+    "decimals": 4,
+    "symbol": "FRIEND",
+    "id": "friend-taruntoken",
+    "usd_price": 2.505619726e-8,
+    "system_price": 0.0000195614
+  },
+  {
+    "contract": "taruntoken",
+    "decimals": 4,
+    "symbol": "CROW",
+    "id": "crow-taruntoken",
+    "usd_price": 1.542024274e-8,
+    "system_price": 0.0000120386
+  },
+  {
+    "contract": "taruntoken",
+    "decimals": 4,
+    "symbol": "EVILP",
+    "id": "evilp-taruntoken",
+    "usd_price": 5.981905472e-7,
+    "system_price": 0.000467008
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 4,
+    "symbol": "XHAMR",
+    "id": "xhamr-tokencreate",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 4,
+    "symbol": "CYFOX",
+    "id": "cyfox-tokencreate",
+    "usd_price": 2.236733198e-8,
+    "system_price": 0.0000174622
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 4,
+    "symbol": "TIPS",
+    "id": "tips-tokencreate",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "boredyt",
+    "decimals": 4,
+    "symbol": "BYTT",
+    "id": "bytt-boredyt",
+    "usd_price": 0.000036053492299999996,
+    "system_price": 0.028147
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 8,
+    "symbol": "NUTMEG",
+    "id": "nutmeg-tokencreate",
+    "usd_price": 0.0000055156834900000004,
+    "system_price": 0.0043061
+  },
+  {
+    "contract": "lunatoken",
+    "decimals": 4,
+    "symbol": "LUNA",
+    "id": "luna-lunatoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 0,
+    "symbol": "BSV",
+    "id": "bsv-softclarinet",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 4,
+    "symbol": "DRAGON",
+    "id": "dragon-softclarinet",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 4,
+    "symbol": "PENNY",
+    "id": "penny-tokencreate",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 0,
+    "symbol": "BEER",
+    "id": "beer-protontokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 0,
+    "symbol": "DMT",
+    "id": "dmt-protontokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 8,
+    "symbol": "THC",
+    "id": "thc-protontokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 0,
+    "symbol": "CIG",
+    "id": "cig-protontokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 0,
+    "symbol": "DIRT",
+    "id": "dirt-protontokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 4,
+    "symbol": "SBF",
+    "id": "sbf-protontokens",
+    "usd_price": 6.27641e-7,
+    "system_price": 0.00049
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 8,
+    "symbol": "NRG",
+    "id": "nrg-protontokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "albabank",
+    "decimals": 4,
+    "symbol": "ALBA",
+    "id": "alba-albabank",
+    "usd_price": 0.000422697,
+    "system_price": 0.33
+  },
+  {
+    "contract": "albabank",
+    "decimals": 4,
+    "symbol": "DOGEGF",
+    "id": "dogegf-albabank",
+    "usd_price": 6.4045e-11,
+    "system_price": 5e-8
+  },
+  {
+    "contract": "thomashp",
+    "decimals": 5,
+    "symbol": "PIXEL",
+    "id": "pixel-thomashp",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "redemption",
+    "decimals": 2,
+    "symbol": "RDM",
+    "id": "rdm-redemption",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 0,
+    "symbol": "IOU",
+    "id": "iou-protontokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protongames",
+    "decimals": 0,
+    "symbol": "LOTTO",
+    "id": "lotto-protongames",
+    "usd_price": 6.66068e-8,
+    "system_price": 0.000052
+  },
+  {
+    "contract": "autpolo",
+    "decimals": 7,
+    "symbol": "AUT",
+    "id": "aut-autpolo",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "guityncito",
+    "decimals": 7,
+    "symbol": "AUT",
+    "id": "aut-guityncito",
+    "usd_price": 2.3696649999999998e-8,
+    "system_price": 0.0000185
+  },
+  {
+    "contract": "guess",
+    "decimals": 0,
+    "symbol": "GUESS",
+    "id": "guess-guess",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 8,
+    "symbol": "DGG",
+    "id": "dgg-softclarinet",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "fishtankdao",
+    "decimals": 4,
+    "symbol": "JLY",
+    "id": "jly-fishtankdao",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "fishtankdao",
+    "decimals": 4,
+    "symbol": "MLY",
+    "id": "mly-fishtankdao",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "fishtankdao",
+    "decimals": 4,
+    "symbol": "FSH",
+    "id": "fsh-fishtankdao",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protonjobs",
+    "decimals": 0,
+    "symbol": "JOBS",
+    "id": "jobs-protonjobs",
+    "usd_price": 0.000025545603531999998,
+    "system_price": 0.01994348
+  },
+  {
+    "contract": "protongames",
+    "decimals": 2,
+    "symbol": "GAME",
+    "id": "game-protongames",
+    "usd_price": 0.0000014232464170000001,
+    "system_price": 0.00111113
+  },
+  {
+    "contract": "hovidbank",
+    "decimals": 4,
+    "symbol": "KEEP",
+    "id": "keep-hovidbank",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "ztokens",
+    "decimals": 8,
+    "symbol": "ZIP",
+    "id": "zip-ztokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "flies",
+    "decimals": 0,
+    "symbol": "FLIES",
+    "id": "flies-flies",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "spingame",
+    "decimals": 0,
+    "symbol": "SPIN",
+    "id": "spin-spingame",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "spiketoken",
+    "decimals": 4,
+    "symbol": "SPIKE",
+    "id": "spike-spiketoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "jamesbarnett",
+    "decimals": 4,
+    "symbol": "JBT",
+    "id": "jbt-jamesbarnett",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "agac2",
+    "decimals": 0,
+    "symbol": "MINK",
+    "id": "mink-agac2",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "kibainu",
+    "decimals": 4,
+    "symbol": "SHIB",
+    "id": "shib-kibainu",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "bayramela",
+    "decimals": 4,
+    "symbol": "BAYRA",
+    "id": "bayra-bayramela",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "almonds",
+    "decimals": 0,
+    "symbol": "PBC",
+    "id": "pbc-almonds",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "laid",
+    "decimals": 4,
+    "symbol": "LAZY",
+    "id": "lazy-laid",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "lastroman",
+    "decimals": 0,
+    "symbol": "BTCI",
+    "id": "btci-lastroman",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "crystalfrogs",
+    "decimals": 3,
+    "symbol": "CRYSTAL",
+    "id": "crystal-crystalfrogs",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 2,
+    "symbol": "CHIPS",
+    "id": "chips-protontokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protonmeta",
+    "decimals": 6,
+    "symbol": "BROTON",
+    "id": "broton-protonmeta",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "3z.xpr",
+    "decimals": 4,
+    "symbol": "ZFT",
+    "id": "zft-3z.xpr",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "kinderinu",
+    "decimals": 4,
+    "symbol": "KINDER",
+    "id": "kinder-kinderinu",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "kibainu",
+    "decimals": 4,
+    "symbol": "KIBA",
+    "id": "kiba-kibainu",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "sense",
+    "decimals": 4,
+    "symbol": "XSENSE",
+    "id": "xsense-sense",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "apecointoken",
+    "decimals": 4,
+    "symbol": "APE",
+    "id": "ape-apecointoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "bfrost",
+    "decimals": 0,
+    "symbol": "BFC",
+    "id": "bfc-bfrost",
+    "usd_price": 1.2809e-8,
+    "system_price": 0.00001
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 6,
+    "symbol": "XUST",
+    "id": "xust-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "wrapper",
+    "decimals": 8,
+    "symbol": "BTCL",
+    "id": "btcl-wrapper",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "btoken",
+    "decimals": 0,
+    "symbol": "DOGEMTX",
+    "id": "dogemtx-btoken",
+    "usd_price": 5.1236e-11,
+    "system_price": 4e-8
+  },
+  {
+    "contract": "knighttoken",
+    "decimals": 2,
+    "symbol": "PINU",
+    "id": "pinu-knighttoken",
+    "usd_price": 1.2809e-10,
+    "system_price": 1e-7
+  },
+  {
+    "contract": "mariomario",
+    "decimals": 0,
+    "symbol": "COINS",
+    "id": "coins-mariomario",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "royalcoin",
+    "decimals": 0,
+    "symbol": "NUKE",
+    "id": "nuke-royalcoin",
+    "usd_price": 0.0102472,
+    "system_price": 8
+  },
+  {
+    "contract": "royalcoin",
+    "decimals": 0,
+    "symbol": "ALPHA",
+    "id": "alpha-royalcoin",
+    "usd_price": 1.2809e-11,
+    "system_price": 1e-8
+  },
+  {
+    "contract": "cryptosafe",
+    "decimals": 4,
+    "symbol": "PSAFE",
+    "id": "psafe-cryptosafe",
+    "usd_price": 8.9663e-9,
+    "system_price": 0.000007
+  },
+  {
+    "contract": "dogemakura",
+    "decimals": 12,
+    "symbol": "MAKURA",
+    "id": "makura-dogemakura",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "bep2",
+    "decimals": 0,
+    "symbol": "XBCB",
+    "id": "xbcb-bep2",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "royalcoin",
+    "decimals": 4,
+    "symbol": "ROYAL",
+    "id": "royal-royalcoin",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "cryptosafe",
+    "decimals": 0,
+    "symbol": "SAFE",
+    "id": "safe-cryptosafe",
+    "usd_price": 0.0000011515291,
+    "system_price": 0.000899
+  },
+  {
+    "contract": "biscuit",
+    "decimals": 0,
+    "symbol": "COOKIE",
+    "id": "cookie-biscuit",
+    "usd_price": 0.000014878486085,
+    "system_price": 0.01161565
+  },
+  {
+    "contract": "fasa",
+    "decimals": 2,
+    "symbol": "MATRIX",
+    "id": "matrix-fasa",
+    "usd_price": 9.99102e-10,
+    "system_price": 7.8e-7
+  },
+  {
+    "contract": "tendiestoken",
+    "decimals": 8,
+    "symbol": "TENDIES",
+    "id": "tendies-tendiestoken",
+    "usd_price": 0.00241372796,
+    "system_price": 1.8844
+  },
+  {
+    "contract": "protondoge",
+    "decimals": 4,
+    "symbol": "PDOGE",
+    "id": "pdoge-protondoge",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "pshib",
+    "decimals": 6,
+    "symbol": "PSHIBA",
+    "id": "pshiba-pshib",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "dragontm",
+    "decimals": 4,
+    "symbol": "DRAG",
+    "id": "drag-dragontm",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "pverseme.gm",
+    "decimals": 4,
+    "symbol": "PVERSE",
+    "id": "pverse-pverseme.gm",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "knighttoken",
+    "decimals": 2,
+    "symbol": "CREDITS",
+    "id": "credits-knighttoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "knighttoken",
+    "decimals": 1,
+    "symbol": "MICRO",
+    "id": "micro-knighttoken",
+    "usd_price": 6.4045e-11,
+    "system_price": 5e-8
+  },
+  {
+    "contract": "awee",
+    "decimals": 6,
+    "symbol": "GHOST",
+    "id": "ghost-awee",
+    "usd_price": 0.00038158011,
+    "system_price": 0.2979
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 8,
+    "symbol": "XMT",
+    "id": "xmt-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protonarmy",
+    "decimals": 6,
+    "symbol": "AMMO",
+    "id": "ammo-protonarmy",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "knighttoken",
+    "decimals": 10,
+    "symbol": "ONE",
+    "id": "one-knighttoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 8,
+    "symbol": "XBNB",
+    "id": "xbnb-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "knighttoken",
+    "decimals": 0,
+    "symbol": "XCHICKS",
+    "id": "xchicks-knighttoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "richlist",
+    "decimals": 6,
+    "symbol": "TRILLIO",
+    "id": "trillio-richlist",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "bether.gm",
+    "decimals": 4,
+    "symbol": "BETHER",
+    "id": "bether-bether.gm",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "avillage",
+    "decimals": 4,
+    "symbol": "MOON",
+    "id": "moon-avillage",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "mokum",
+    "decimals": 4,
+    "symbol": "MOKUM",
+    "id": "mokum-mokum",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "richlist",
+    "decimals": 0,
+    "symbol": "MILLION",
+    "id": "million-richlist",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "caseygrooms",
+    "decimals": 0,
+    "symbol": "LOL",
+    "id": "lol-caseygrooms",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 6,
+    "symbol": "XUNI",
+    "id": "xuni-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xsol",
+    "decimals": 0,
+    "symbol": "SLAM",
+    "id": "slam-xsol",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "spacedemon",
+    "decimals": 0,
+    "symbol": "VLA",
+    "id": "vla-spacedemon",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "sights",
+    "decimals": 3,
+    "symbol": "SIG",
+    "id": "sig-sights",
+    "usd_price": 0.00543024733191,
+    "system_price": 4.2393999
+  },
+  {
+    "contract": "realestatese",
+    "decimals": 4,
+    "symbol": "SEARCH",
+    "id": "search-realestatese",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "thomashp",
+    "decimals": 4,
+    "symbol": "LUCK",
+    "id": "luck-thomashp",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xsol",
+    "decimals": 1,
+    "symbol": "LOVE",
+    "id": "love-xsol",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "retrotoken",
+    "decimals": 4,
+    "symbol": "RETRO",
+    "id": "retro-retrotoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "erjkerewj",
+    "decimals": 2,
+    "symbol": "TMTTA",
+    "id": "tmtta-erjkerewj",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "erjkerewj",
+    "decimals": 2,
+    "symbol": "FLTT",
+    "id": "fltt-erjkerewj",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 0,
+    "symbol": "SPAM",
+    "id": "spam-protontokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "aiverse",
+    "decimals": 2,
+    "symbol": "AIVERSE",
+    "id": "aiverse-aiverse",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xpromotion",
+    "decimals": 4,
+    "symbol": "CRINGE",
+    "id": "cringe-xpromotion",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protonai",
+    "decimals": 2,
+    "symbol": "PROTONA",
+    "id": "protona-protonai",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xpromotion",
+    "decimals": 4,
+    "symbol": "HYPE",
+    "id": "hype-xpromotion",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "memetoken",
+    "decimals": 2,
+    "symbol": "MEME",
+    "id": "meme-memetoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "agix",
+    "decimals": 2,
+    "symbol": "AGIX",
+    "id": "agix-agix",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "eosiotokens",
+    "decimals": 2,
+    "symbol": "SOL",
+    "id": "sol-eosiotokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 0,
+    "symbol": "BOMB",
+    "id": "bomb-protontokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protontokens",
+    "decimals": 2,
+    "symbol": "KAREN",
+    "id": "karen-protontokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xxxtokens",
+    "decimals": 2,
+    "symbol": "PORN",
+    "id": "porn-xxxtokens",
+    "usd_price": 8.9663e-11,
+    "system_price": 7e-8
+  },
+  {
+    "contract": "eosiotokens",
+    "decimals": 2,
+    "symbol": "XSHIB",
+    "id": "xshib-eosiotokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xpromotion",
+    "decimals": 4,
+    "symbol": "XPRO",
+    "id": "xpro-xpromotion",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "eosiotokens",
+    "decimals": 2,
+    "symbol": "XLUNC",
+    "id": "xlunc-eosiotokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "eosiotokens",
+    "decimals": 2,
+    "symbol": "VRA",
+    "id": "vra-eosiotokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "metafuture",
+    "decimals": 4,
+    "symbol": "DICK",
+    "id": "dick-metafuture",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "protonmeta",
+    "decimals": 2,
+    "symbol": "AURA",
+    "id": "aura-protonmeta",
+    "usd_price": 2.6386540000000002e-9,
+    "system_price": 0.00000206
+  },
+  {
+    "contract": "metafuture",
+    "decimals": 3,
+    "symbol": "SDICK",
+    "id": "sdick-metafuture",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "erjkerewj",
+    "decimals": 2,
+    "symbol": "FLTRC",
+    "id": "fltrc-erjkerewj",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "eosiotokens",
+    "decimals": 2,
+    "symbol": "BTC",
+    "id": "btc-eosiotokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "eosiotokens",
+    "decimals": 2,
+    "symbol": "ETH",
+    "id": "eth-eosiotokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "eosiotokens",
+    "decimals": 2,
+    "symbol": "DOGE",
+    "id": "doge-eosiotokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "eosiotokens",
+    "decimals": 2,
+    "symbol": "BNB",
+    "id": "bnb-eosiotokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "eosiotokens",
+    "decimals": 2,
+    "symbol": "CFX",
+    "id": "cfx-eosiotokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "sayaripro",
+    "decimals": 2,
+    "symbol": "SPR",
+    "id": "spr-sayaripro",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 6,
+    "symbol": "XSOL",
+    "id": "xsol-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 8,
+    "symbol": "XLTC",
+    "id": "xltc-xtokens",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "deluxetoken",
+    "decimals": 4,
+    "symbol": "DLX",
+    "id": "dlx-deluxetoken",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "mysticlion",
+    "decimals": 6,
+    "symbol": "MYSTIC",
+    "id": "mystic-mysticlion",
+    "usd_price": 2.68989e-10,
+    "system_price": 2.1e-7
+  },
+  {
+    "contract": "sayarideluxe",
+    "decimals": 3,
+    "symbol": "SDX",
+    "id": "sdx-sayarideluxe",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "pepetoken",
+    "decimals": 4,
+    "symbol": "XPEPE",
+    "id": "xpepe-pepetoken",
+    "usd_price": 0.0000153708,
+    "system_price": 0.012
+  },
+  {
+    "contract": "xpepe",
+    "decimals": 4,
+    "symbol": "XPEPE",
+    "id": "xpepe-xpepe",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xtokens",
+    "decimals": 6,
+    "symbol": "XEUROC",
+    "id": "xeuroc-xtokens",
+    "usd_price": 1.373995812,
+    "system_price": 1072.68
+  },
+  {
+    "contract": "envisionevc",
+    "decimals": 4,
+    "symbol": "EVC",
+    "id": "evc-envisionevc",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 0,
+    "symbol": "DILDO",
+    "id": "dildo-softclarinet",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xprjesus",
+    "decimals": 4,
+    "symbol": "JESUS",
+    "id": "jesus-xprjesus",
+    "usd_price": 1.1271920000000001e-8,
+    "system_price": 0.0000088
+  },
+  {
+    "contract": "bartxpr",
+    "decimals": 4,
+    "symbol": "BART",
+    "id": "bart-bartxpr",
+    "usd_price": 4.22697e-9,
+    "system_price": 0.0000033
+  },
+  {
+    "contract": "pikachuxpr",
+    "decimals": 4,
+    "symbol": "PIKACHU",
+    "id": "pikachu-pikachuxpr",
+    "usd_price": 3.20225e-7,
+    "system_price": 0.00025
+  },
+  {
+    "contract": "hulkxpr",
+    "decimals": 4,
+    "symbol": "HULK",
+    "id": "hulk-hulkxpr",
+    "usd_price": 3.8427e-11,
+    "system_price": 3e-8
+  },
+  {
+    "contract": "gokuxpr",
+    "decimals": 4,
+    "symbol": "GOKU",
+    "id": "goku-gokuxpr",
+    "usd_price": 4.2269700000000004e-8,
+    "system_price": 0.000033
+  },
+  {
+    "contract": "wojakxpr",
+    "decimals": 4,
+    "symbol": "WOJAK",
+    "id": "wojak-wojakxpr",
+    "usd_price": 6.4045e-8,
+    "system_price": 0.00005
+  },
+  {
+    "contract": "gretaxpr",
+    "decimals": 4,
+    "symbol": "GRETA",
+    "id": "greta-gretaxpr",
+    "usd_price": 2.5618e-10,
+    "system_price": 2e-7
+  },
+  {
+    "contract": "lgbtqxpr",
+    "decimals": 4,
+    "symbol": "LGBTQ",
+    "id": "lgbtq-lgbtqxpr",
+    "usd_price": 1.4089899999999999e-8,
+    "system_price": 0.000011
+  },
+  {
+    "contract": "magaxpr",
+    "decimals": 4,
+    "symbol": "MAGA",
+    "id": "maga-magaxpr",
+    "usd_price": 4.22697e-9,
+    "system_price": 0.0000033
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 0,
+    "symbol": "X",
+    "id": "x-softclarinet",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 0,
+    "symbol": "ISO",
+    "id": "iso-softclarinet",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 4,
+    "symbol": "BRICS",
+    "id": "brics-softclarinet",
+    "usd_price": 1.2809e-11,
+    "system_price": 1e-8
+  },
+  {
+    "contract": "pully",
+    "decimals": 6,
+    "symbol": "RUG",
+    "id": "rug-pully",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "xpromotion",
+    "decimals": 4,
+    "symbol": "ROCKET",
+    "id": "rocket-xpromotion",
+    "usd_price": 0.0000012809640449999998,
+    "system_price": 0.00100005
+  },
+  {
+    "contract": "xpromotion",
+    "decimals": 4,
+    "symbol": "POOP",
+    "id": "poop-xpromotion",
+    "usd_price": 1.53708e-10,
+    "system_price": 1.2e-7
+  },
+  {
+    "contract": "saydeluxe",
+    "decimals": 4,
+    "symbol": "SYNG",
+    "id": "syng-saydeluxe",
+    "usd_price": 0,
+    "system_price": 0
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 4,
+    "symbol": "COYOTE",
+    "id": "coyote-softclarinet",
+    "usd_price": 1.2809e-11,
+    "system_price": 1e-8
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 4,
+    "symbol": "MARS",
+    "id": "mars-softclarinet",
+    "usd_price": 1.2809e-11,
+    "system_price": 1e-8
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 4,
+    "symbol": "PROCKET",
+    "id": "procket-softclarinet",
+    "usd_price": 1.2809e-11,
+    "system_price": 1e-8
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 4,
+    "symbol": "AI",
+    "id": "ai-softclarinet",
+    "usd_price": 1.2809e-11,
+    "system_price": 1e-8
+  },
+  {
+    "contract": "taruntoken",
+    "decimals": 4,
+    "symbol": "CHUR",
+    "id": "chur-taruntoken",
+    "usd_price": 0.00012962708,
+    "system_price": 0.1012
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 4,
+    "symbol": "BASED",
+    "id": "based-softclarinet",
+    "usd_price": 1.2809e-11,
+    "system_price": 1e-8
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 4,
+    "symbol": "COIN",
+    "id": "coin-softclarinet",
+    "usd_price": 5.1236e-10,
+    "system_price": 4e-7
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 4,
+    "symbol": "PEP",
+    "id": "pep-softclarinet",
+    "usd_price": 2.5618e-10,
+    "system_price": 2e-7
+  },
+  {
+    "contract": "softclarinet",
+    "decimals": 4,
+    "symbol": "GLOBO",
+    "id": "globo-softclarinet",
+    "usd_price": 1.2809e-11,
+    "system_price": 1e-8
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 8,
+    "symbol": "XPC",
+    "id": "xpc-tokencreate",
+    "usd_price": 0.0000076854,
+    "system_price": 0.006
+  },
+  {
+    "contract": "tokencreate",
+    "decimals": 0,
+    "symbol": "EIGHT",
+    "id": "eight-tokencreate",
+    "usd_price": 2.5618e-11,
+    "system_price": 2e-8
+  }
+]
