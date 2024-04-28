@@ -5,6 +5,7 @@ const fs = require("fs");
 const WizardScene = require("telegraf/scenes/wizard");
 
 const dotenv = require("dotenv");
+
 const {
   isTokenId,
   findOneByTokenId,
@@ -175,27 +176,34 @@ bot.on("text", async (ctx) => {
           token.contract
         );
         const marketCap = parseFloat(cirSupply) * price;
-        const percent = await getPercent(tokenId, parseFloat(parseFloat(token.system_price) || (token.systemPrice && parseFloat(token.systemPrice))));
+        const percent = await getPercent(
+          tokenId,
+          parseFloat(
+            parseFloat(token.system_price) ||
+              (token.systemPrice && parseFloat(token.systemPrice))
+          )
+        );
         // const poolId = await Alcor.getPoolId(tokenId);
         ctx.replyWithMarkdown(
-          `[$${tokenId}](#) token Price:\n${formatToScientific(price)} USD (${percent || " "
-          }%${percent < 0 ? "🔻" : "✅"})\n${token.system_price ? token.system_price.toFixed(
-            6
-          ) : token.systemPrice.toFixed(
-            6
-          )} XPR\n\n` +
-          `*Daily volume:*\n` +
-          `📉*Volume in ${tokenId}:* ${formatNumber(volume24)}\n` +
-          `📈*Volume in USD:* $${formatNumber(volume24USD)}\n\n` +
-          `*Weekly volume:*\n` +
-          `📉*Volume in ${tokenId}:* ${formatNumber(volumeWeek)}\n` +
-          `📈*Volume in USD:* $${formatNumber(volumeWeekUSD)}\n\n` +
-          `*Monthly volume:*\n` +
-          `📉*Volume in ${tokenId}:* ${formatNumber(volumeMonth)}\n` +
-          `📈*Volume in USD:* $${formatNumber(volumeMonthUSD)}\n\n` +
-          `*MarketCap:* $${formatNumber(marketCap)} | ` +
-          `*Circulating Supply:* ${formatNumber(parseFloat(cirSupply))}\n` +
-          `Provided by [${adminId}](https://t.me/novaxpr)`,
+          `[$${tokenId}](#) token Price:\n${formatToScientific(price)} USD (${
+            percent || " "
+          }%${percent < 0 ? "🔻" : "✅"})\n${
+            token.system_price
+              ? token.system_price.toFixed(6)
+              : token.systemPrice.toFixed(6)
+          } XPR\n\n` +
+            `*Daily volume:*\n` +
+            `📉*Volume in ${tokenId}:* ${formatNumber(volume24)}\n` +
+            `📈*Volume in USD:* $${formatNumber(volume24USD)}\n\n` +
+            `*Weekly volume:*\n` +
+            `📉*Volume in ${tokenId}:* ${formatNumber(volumeWeek)}\n` +
+            `📈*Volume in USD:* $${formatNumber(volumeWeekUSD)}\n\n` +
+            `*Monthly volume:*\n` +
+            `📉*Volume in ${tokenId}:* ${formatNumber(volumeMonth)}\n` +
+            `📈*Volume in USD:* $${formatNumber(volumeMonthUSD)}\n\n` +
+            `*MarketCap:* $${formatNumber(marketCap)} | ` +
+            `*Circulating Supply:* ${formatNumber(parseFloat(cirSupply))}\n` +
+            `Provided by [${adminId}](https://t.me/novaxpr)`,
           {
             parse_mode: "Markdown",
             reply_markup: Markup.inlineKeyboard([
