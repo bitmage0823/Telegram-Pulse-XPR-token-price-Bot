@@ -185,9 +185,9 @@ bot.on("text", async (ctx) => {
         );
         // const poolId = await Alcor.getPoolId(tokenId);
         ctx.replyWithMarkdown(
-          `[$${tokenId}](#) token Price:\n${formatToScientific(price)} USD (${
-            percent || " "
-          }%${percent < 0 ? "🔻" : "✅"})\n${
+          `[$${tokenId}](#) token Price:\n${formatToScientific(
+            price
+          )} USD (${percent}%${percent < 0 ? "🔻" : "✅"})\n${
             token.system_price
               ? token.system_price.toFixed(6)
               : token.systemPrice.toFixed(6)

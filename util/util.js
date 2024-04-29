@@ -16,20 +16,20 @@ const getPercent = async (tokenId, currentSystemPrice) => {
     // Read the existing data from the file
     let data = fs.readFileSync("log.json", "utf8");
     const oldJson = JSON.parse(data);
+    const oldPrice =
+      oldJson.find(
+        (item) => item.symbol.toUpperCase() === tokenId.toUpperCase()
+      ).system_price ||
+      oldJson.find(
+        (item) => item.symbol.toUpperCase() === tokenId.toUpperCase()
+      ).systemPrice;
     // Parse the existing JSON data
     let ans = parseFloat(
-      (parseFloat(
-        oldJson.find(
-          (item) => item.symbol.toUpperCase() === tokenId.toUpperCase()
-        ).system_price || oldJson.find(
-          (item) => item.symbol.toUpperCase() === tokenId.toUpperCase()
-        ).systemPrice
-      ) -
-        currentSystemPrice) /
-        currentSystemPrice
+      (parseFloat(oldPrice) - currentSystemPrice) / currentSystemPrice
     );
     ans = parseFloat(ans * 100).toFixed(2);
-    return ans * (-1);
+    console.log("ans", ans);
+    return ans * -1;
   } catch (error) {
     console.error(error);
   }
