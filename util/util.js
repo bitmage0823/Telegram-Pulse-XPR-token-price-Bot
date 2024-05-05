@@ -11,29 +11,29 @@ const isTokenId = (message) => {
   return message.startsWith(",");
 };
 
-const getPercent = async (tokenId, currentSystemPrice) => {
-  try {
-    // Read the existing data from the file
-    let data = fs.readFileSync("log.json", "utf8");
-    const oldJson = JSON.parse(data);
-    const oldPrice =
-      oldJson.find(
-        (item) => item.symbol.toUpperCase() === tokenId.toUpperCase()
-      ).system_price ||
-      oldJson.find(
-        (item) => item.symbol.toUpperCase() === tokenId.toUpperCase()
-      ).systemPrice;
-    // Parse the existing JSON data
-    let ans = parseFloat(
-      (parseFloat(oldPrice) - currentSystemPrice) / currentSystemPrice
-    );
-    ans = parseFloat(ans * 100).toFixed(2);
-    console.log("ans", ans);
-    return ans * -1;
-  } catch (error) {
-    console.error(error);
-  }
-};
+// const getPercent = async (tokenId, currentSystemPrice) => {
+//   try {
+//     // Read the existing data from the file
+//     let data = fs.readFileSync("log.json", "utf8");
+//     const oldJson = JSON.parse(data);
+//     const oldPrice =
+//       oldJson.find(
+//         (item) => item.symbol.toUpperCase() === tokenId.toUpperCase()
+//       ).system_price ||
+//       oldJson.find(
+//         (item) => item.symbol.toUpperCase() === tokenId.toUpperCase()
+//       ).systemPrice;
+//     // Parse the existing JSON data
+//     let ans = parseFloat(
+//       (parseFloat(oldPrice) - currentSystemPrice) / currentSystemPrice
+//     );
+//     ans = parseFloat(ans * 100).toFixed(2);
+//     console.log("ans", ans);
+//     return ans * -1;
+//   } catch (error) {
+//     console.error(error);
+//   }
+// };
 
 const formatNumber = (number) => {
   const formattedNumber = new Intl.NumberFormat("en-US", {
@@ -179,7 +179,6 @@ const checkAdmin = (ctx) => {
 module.exports = {
   findOneByTokenId,
   isTokenId,
-  getPercent,
   formatNumber,
   checkChannelUsername,
   getPendingChannels,

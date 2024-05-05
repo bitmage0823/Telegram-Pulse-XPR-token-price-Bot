@@ -9,7 +9,6 @@ const dotenv = require("dotenv");
 const {
   isTokenId,
   findOneByTokenId,
-  getPercent,
   formatNumber,
   checkChannelUsername,
   getPendingChannels,
@@ -18,7 +17,6 @@ const {
   getActivatedChannels,
   formatToScientific,
   checkAdmin,
-  getPercent1,
 } = require("./util/util");
 const filePath = "log.json";
 
@@ -176,14 +174,11 @@ bot.on("text", async (ctx) => {
           token.contract
         );
         const marketCap = parseFloat(cirSupply) * price;
-        const percent = await getPercent(
-          tokenId,
-          parseFloat(
-            parseFloat(token.system_price) ||
-              (token.systemPrice && parseFloat(token.systemPrice))
-          )
-        );
-        // const poolId = await Alcor.getPoolId(tokenId);
+
+        const percent =
+          tokenId === "XPR"
+            ? await Alcor.getPercent("XUSDC")
+            : await Alcor.getPercent(tokenId);
         ctx.replyWithMarkdown(
           `[$${tokenId}](#) token Price:\n${formatToScientific(
             price
@@ -235,26 +230,3 @@ bot.on("text", async (ctx) => {
 });
 
 bot.launch();
-
-setInterval(async function () {
-  // Get current UTC time
-  var currentDate = new Date();
-  var currentUTCHours = currentDate.getUTCHours();
-  var currentUTCMinutes = currentDate.getUTCMinutes();
-
-  // Check if current UTC time is 00:00
-  if (currentUTCHours === 0) {
-    // Call your API here
-    const tokenList = await Alcor.getTokens();
-
-    // Write the updated data back to the file
-    fs.writeFile(filePath, JSON.stringify(tokenList, null, 2), (err) => {
-      if (err) {
-        console.error("Error writing file:", err);
-      } else {
-        console.log("File successfully updated!");
-      }
-    });
-    // Replace the console.log with your API call
-  }
-}, 1000 * 60 * 60); // Check every minute (60000 milliseconds)

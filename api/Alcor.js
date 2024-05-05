@@ -18,21 +18,6 @@ const getTokens = async () => {
   }
 };
 
-const getTickers = async () => {
-  try {
-    const response = await axios({
-      method: "GET",
-      url: `${BASE_URL}/tickers`,
-      headers: {},
-      params: {},
-    });
-
-    return response.data;
-  } catch (error) {
-    console.error(error);
-  }
-};
-
 const getTokenInfo = async (tokenId) => {
   try {
     const response = await axios({
@@ -163,14 +148,69 @@ const getMarketCap = async (tokenId) => {
   return marketCap;
 };
 
-const getPoolId = async (tokenId) => {
+const getPercentforEachPool = async (poolId, max) => {
+  var now = Date.now();
+  // now = now - (now % 1000);
+  // Get timestamp of two days ago
+  var twoDaysAgo = new Date();
+  twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+  twoDaysAgo.setFullYear(twoDaysAgo.getFullYear() - 1);
+  twoDaysAgo = twoDaysAgo.getTime();
+
+  // twoDaysAgo = twoDaysAgo - (twoDaysAgo % 1000);
+
+  try {
+    const response = await axios({
+      method: "GET",
+      url: `${BASE_URL}/swap/pools/${poolId.id}/candles`,
+      params: {
+        resolution: "1D",
+        from: twoDaysAgo,
+        to: now,
+        reverse: false,
+      },
+    });
+
+    candles = response.data;
+    candle1 = candles[candles.length - 2];
+    candle2 = candles[candles.length - 1];
+
+    const percent =
+      ((parseFloat(candle2.close) - parseFloat(candle1.close)) /
+        parseFloat(candle1.close)) *
+      100.0;
+
+    if (Math.abs(percent) > Math.abs(max)) {
+      max = percent;
+    }
+    return max;
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+const getPoolIds = async (tokenId) => {
   const pools = await getPools();
-  const index = pools.findIndex(
+  const poolIds = pools.filter(
     (item) =>
       (item.tokenA.symbol === "XPR" && item.tokenB.symbol === tokenId) ||
       (item.tokenA.symbol === tokenId && item.tokenB.symbol === "XPR")
   );
-  return index >= 0 ? pools[index].id : -1;
+
+  // return index >= 0 ? pools[index].id : -1;
+  return poolIds;
+};
+
+const getPercent = async (tokenId) => {
+  const poolIds = await getPoolIds(tokenId);
+
+  let max = 0;
+
+  for (var i = 0; i < poolIds.length; i++) {
+    max = await getPercentforEachPool(poolIds[i], max);
+  }
+
+  return max.toFixed(2);
 };
 
 module.exports = {
@@ -184,5 +224,6 @@ module.exports = {
   getMonthlyVolume,
   getWeeklyVolume,
   getWeeklyVolumeUSD,
-  getPoolId,
+  getPoolIds,
+  getPercent,
 };
